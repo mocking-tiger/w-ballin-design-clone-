@@ -1,3 +1,11 @@
+import Header from "@/components/header";
+import Temp from "@/components/temp";
+
 export default function Home() {
-  return <main>랜딩페이지</main>;
+  return (
+    <main>
+      <Header />
+      <Temp />
+    </main>
+  );
 }
